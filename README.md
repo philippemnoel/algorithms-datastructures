@@ -1,2 +1,2 @@
 # Algorithm
-Algorithms I have been learning about
+Algorithms I have been learning about.
