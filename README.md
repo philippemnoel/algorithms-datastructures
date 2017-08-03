@@ -17,7 +17,7 @@
 
 - Kahn's Algorithm - Topological Sorting
 
-- Andrew's Algorithm (Monotone Chains Algorithm - Convex Hull
+- Andrew's Algorithm (Monotone Chains Algorithm) - Convex Hull
 
 - Coordinate Compression
 
