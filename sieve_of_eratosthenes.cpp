@@ -43,8 +43,8 @@ int main() {
     if (ss >> n) {
       if (ss.eof() && n > 1)
         break;
-     }
-     std::cout << "Invalid input, please try again." << std::endl;
+    }
+    std::cout << "Invalid input, please try again." << std::endl;
   }
 
   // output primes
