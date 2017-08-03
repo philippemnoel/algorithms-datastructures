@@ -1,17 +1,24 @@
 # Algorithms
 
-Algorithms I have been learning about.
-
-- Sieve of Eratosthenes (C++)
+- Sieve of Eratosthenes
+  - C++
 
 - Depth-First Search
 
 - Breadth-First Search
 
-- Dijkstra Algorithm
+- Dijkstra's Algorithm
 
-- Floyd-Warshall Algorithm
+- Floyd-Warshall's Algorithm
 
-- Kruskal Algorithm
+- Kruskal's Algorithm
 
-- Prim Algorithm
+- Prim's Algorithm
+
+- Kahn's Algorithm - Topological Sorting
+
+- Andrew's Algorithm (Monotone Chains Algorithm - Convex Hull
+
+- Coordinate Compression
+
+- Edmonds-Karp Algorithm
