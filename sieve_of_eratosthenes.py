@@ -1,7 +1,7 @@
 ##
  # sieve_of_eratosthenes.py
  #
- # Language: Python 2
+ # Language: Python 2.7
  #
  # Program to print all primes smaller than or equal to a given number n using
  # Sieve of Eratosthenes.
