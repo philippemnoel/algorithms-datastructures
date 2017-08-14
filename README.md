@@ -3,6 +3,7 @@
 - Sieve of Eratosthenes
   - C
   - C++
+  - Java
   - Python 2.7
   
 - Depth-First Search
