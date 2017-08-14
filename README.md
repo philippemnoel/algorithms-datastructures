@@ -1,8 +1,10 @@
 # Algorithms
 
 - Sieve of Eratosthenes
+  - C
   - C++
-
+  - Python 2.7
+  
 - Depth-First Search
 
 - Breadth-First Search
