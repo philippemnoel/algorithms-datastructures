@@ -25,3 +25,9 @@
 - Coordinate Compression
 
 - Edmonds-Karp Algorithm
+
+
+
+
+
+- Linear Regression / Logistic Regression / k-means / SVMs / Tree Ensembles including Random Forests and Gradient Boosted Decision Trees/Machines / Matrix Factorization/SVD / Naive Bayes / Artificial Neural Networks / Deep Neural Networks (Convolutional or Recurrent Networks) / Elastic Nets / Clustering algo besides k-means / LDA / HDPs or other Bayesian non-parametric model / Bayesian Networks / Conditional Random Fields
