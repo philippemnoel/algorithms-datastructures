@@ -46,7 +46,7 @@ class Sieve_of_eratosthenes {
     // initialize variable
     int n = 0;
 
-    // prompt user for integer input
+    // prompt user for integer input >= 2
     Scanner scan = new Scanner(System.in);
     System.out.print("Enter a valid integer above 1: ");
     while (n < 2) {
