@@ -1,5 +1,15 @@
 # Algorithms
 
+- Bubble Sort
+
+- Insert Sort
+
+- Merge Sort
+
+- Quick Sort
+
+- Counting Sort
+
 - Sieve of Eratosthenes
   - C
   - C++
@@ -26,10 +36,9 @@
 
 - Edmonds-Karp Algorithm
 
+- Linear Regression
+
+- Logistic Regression
 
 
-
-
-- Linear Regression / Logistic Regression / k-means / SVMs / Tree Ensembles including Random Forests and Gradient Boosted Decision Trees/Machines / Matrix Factorization/SVD / Naive Bayes / Artificial Neural Networks / Deep Neural Networks (Convolutional or Recurrent Networks) / Elastic Nets / Clustering algo besides k-means / LDA / HDPs or other Bayesian non-parametric model / Bayesian Networks / Conditional Random Fields
-
-Various sorts: bubble, insert, merge, quicksort.
+/ k-means / SVMs / Tree Ensembles including Random Forests and Gradient Boosted Decision Trees/Machines / Matrix Factorization/SVD / Naive Bayes / Artificial Neural Networks / Deep Neural Networks (Convolutional or Recurrent Networks) / Elastic Nets / Clustering algo besides k-means / LDA / HDPs or other Bayesian non-parametric model / Bayesian Networks / Conditional Random Fields
