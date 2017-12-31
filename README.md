@@ -44,6 +44,7 @@
 - Edmonds-Karp Algorithm
 
 - Linear Regression
+  - Java
 
 - Logistic Regression
 
