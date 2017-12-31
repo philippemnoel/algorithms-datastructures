@@ -9,12 +9,19 @@
 - Quick Sort
 
 - Counting Sort
+  - Python 3
+
+- Factorial
+  - Python 3
+  
+- 512 Bits Binary Multiplication in NAND
+  - Python 3
 
 - Sieve of Eratosthenes
   - C
   - C++
   - Java
-  - Python 2.7
+  - Python 2
   
 - Depth-First Search
 
