@@ -9,10 +9,10 @@
 - Quick Sort
 
 - Counting Sort
-  - Python 3
+  - C
 
 - Factorial
-  - Python 3
+  - C
   
 - 512 Bits Binary Multiplication in NAND
   - Python 3
