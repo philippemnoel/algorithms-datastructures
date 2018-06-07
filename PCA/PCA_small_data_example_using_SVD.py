@@ -9,20 +9,20 @@ import matplotlib.pyplot as plt
 from numpy import linalg
 
 def PCA_SVD(F, N, tp):
-    """ Performs PCA Analysis using the Singular Value Decomposition Method for
-        a Dataset F with a 200 Points Visualization """
+    """ Performs PC Analysis using the Singular Value Decomposition Method for
+        a Dataset F with 200 Points Visualization """
     # display a small sample of the data
     print('Sample Data'); print(F[:,0:8])
 
     # plot data
     matplotlib.rcParams.update({'font.size': 18}) # default font size
     plt.figure(1); plt.clf();
-    hl1 = plt.plot(tp, F[0,tp], 'r-', linewidth=2);
-    hl2 = plt.plot(tp, F[1,tp], 'g-', linewidth=2);
-    hl3 = plt.plot(tp, F[2,tp], 'b-', linewidth=2);
-    hl4 = plt.plot(tp, F[3,tp], 'c-', linewidth=2);
-    plt.legend([hl1,hl2,hl3,hl4], ['F1','F2','F3','F4']);
-    plt.xlabel('Day'); plt.ylabel('Price'); plt.title('Stock Prices');
+    hl1 = plt.plot(tp, F[0,tp], 'r-', linewidth=2)
+    hl2 = plt.plot(tp, F[1,tp], 'g-', linewidth=2)
+    hl3 = plt.plot(tp, F[2,tp], 'b-', linewidth=2)
+    hl4 = plt.plot(tp, F[3,tp], 'c-', linewidth=2)
+    plt.legend([hl1,hl2,hl3,hl4], ['F1','F2','F3','F4'])
+    plt.xlabel('Day'); plt.ylabel('Price'); plt.title('Stock Prices')
     plt.show()
 
     # calculate the PCs using SVD

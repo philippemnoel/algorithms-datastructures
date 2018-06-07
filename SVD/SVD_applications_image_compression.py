@@ -1,5 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Philippe M. Noël
+Original Code From Eli Tziperman - Harvard APMTH120
 Singular Value Decomposition - Image Compression -- Python 3
 Based on: https://inst.eecs.berkeley.edu/~ee127a/book/login/l_svd_apps_image.html
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -12,7 +13,7 @@ from scipy.linalg import svd
 from scipy.misc import imread
 from skimage.color import rgb2gray
 
-def SVDImCompression():
+def SVDImgCompression():
     """ Uses SVD to Perform Image Compression of a .bmp, .jpg or .png Image """
     # read data
     img = scipy.misc.imread('beach.jpg') # loads image as a 3D array
@@ -54,4 +55,4 @@ def SVDImCompression():
 
 
 # test driver
-SVDImCompression()
+SVDImgCompression()

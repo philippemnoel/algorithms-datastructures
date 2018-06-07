@@ -57,7 +57,7 @@ def HierarchicalClustering(X):
     plt.title("Elbow Plot: Finding Optimal # of Clusters"); plt.show()
 
 
-# driver test
+# driver test & data generation
 # generate random test data
 shift_1 = np.ones((N, 2))
 shift_2 = np.hstack([np.ones((N, 1), -np.ones((N , 1)))])
@@ -67,4 +67,5 @@ X = np.vstack([np.random.random((N, 2)) * 0.3 * 0.75 + shift1,
                np.random.random((N, 2)) * 0.3 * 0.50 - shift1,
                np.random.random((N, 2)) * 0.3 * 0.25 + shift2,
                np.random.random((N, 2)) * 0.3 * 0.35 - shift2])
+# driver test
 HierarchicalClustering(X)
