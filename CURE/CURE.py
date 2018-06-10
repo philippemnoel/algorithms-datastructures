@@ -1,6 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Philippe M. Noël
 Clustering Using REpresentatives (CURE) Algorithm -- Python 3
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import numpy as np
 import scipy as scipy
@@ -11,12 +12,8 @@ from scipy.spatial.distance import pdist,squareform
 from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.cluster.hierarchy import fcluster
 
-def CURE():
+def CURE(X, N):
     """ Clustering Using REpresentatives from .mat file """
-    # loading data
-    X = scipy.io.loadmat('CURE_data.mat')['X']
-    N = len(X[1,:])
-
     # randomly submsapling data to generate representatives
     np.random.seed(3989) # other seeds could be used
     X = X[:,np.random.permutation(N)]
@@ -55,5 +52,10 @@ def CURE():
     plt.title('Full Dataset, N = ' + str(N))
 
 
-# test driver
-CURE()
+
+
+# test driver & data generation
+# loading data
+X = scipy.io.loadmat('CURE_data.mat')['X']
+N = len(X[1,:])
+CURE(X, N)

@@ -2,6 +2,7 @@
 Philippe M. Noël
 Map Reduce - Reducer Subroutine -- Python 3
 Based on: http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import sys
 from operator import itemgetter

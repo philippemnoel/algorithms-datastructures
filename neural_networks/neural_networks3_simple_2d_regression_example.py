@@ -1,6 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Philippe M. Noël
 Neural Network 2D Regression Algorithm -- Python 3
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import keras
 import matplotlib

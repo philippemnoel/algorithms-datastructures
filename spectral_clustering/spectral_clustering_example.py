@@ -1,6 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Philippe M. Noël
 Spectral Clustering Algorithm -- Python 3
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import numpy as np
 import scipy as scipy

@@ -1,6 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Philippe M. Noël
 k-NN Kernel Regression Algorithm -- Python 3
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import matplotlib
 import numpy as np

@@ -1,6 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Philippe M. Noël
 % Clustering Using REpresentatives (CURE) Algorithm -- Matlab
+% Original Code from Harvard APMTH120
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% loading & preparing data
 X = X; % must load data from .mat file by double-clicking on it 

@@ -1,6 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Philippe M. Noël
 Gradient Steepest Descent Backpropagation Algorithm -- Python 3
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import matplotlib
 import numpy as np
@@ -109,7 +110,7 @@ def neural_network(X, y, w2, b2, w3, b3, w4, b4):
 # generate data
 X = np.array([[0.5,1.0]]).T
 y = np.array([[1.0,1.0]]).T
-data = scipy.io.loadmat('data6.mat')
+data = scipy.io.loadmat('data.mat')
 w2 = data['w2']; b2 = data['b2']
 w3 = data['w3']; b3 = data['b3']
 w4 = data['w4']; b4 = data['b4']

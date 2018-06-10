@@ -2,6 +2,7 @@
 Philippe M. Noël
 Support Vector Machines Classification (Steepest Descent Iters) -- Python 3
 The SVM Line is: w[0]x + w[1]y + b = 0
+Original Code from Harvard APMTH120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 import matplotlib
 import numpy as np
